@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chat — Miguel Angel Binilla</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><span class="marca">CHAT / SOCKET.IO</span><h1>Una conversación en tiempo real.</h1><p>Miguel Angel Binilla · Taller de WebSockets</p></header>
+  <section id="login" class="card">
+    <h2>Entra a conversar</h2>
+    <form id="form-login"><label for="input-nombre">Tu nombre</label><div class="fila"><input id="input-nombre" maxlength="30" autocomplete="nickname" required placeholder="¿Cómo te llamas?"><button>Entrar</button></div></form>
+    <p id="error" role="alert"></p>
+  </section>
+  <section id="chat" class="oculto">
+    <aside><h2>Conectados <span id="cantidad">0</span></h2><ul id="lista-usuarios"></ul><p class="nota">Los últimos 20 mensajes aparecen al entrar.</p></aside>
+    <main><div class="cabecera"><strong># general</strong><span id="estado" role="status">Conectando…</span></div><ul id="mensajes" role="log" aria-label="Mensajes del chat"></ul><p id="escribiendo" aria-live="polite"></p><form id="form-mensaje" class="fila"><label class="sr" for="input-mensaje">Mensaje</label><input id="input-mensaje" maxlength="2000" autocomplete="off" placeholder="Escribe un mensaje…" required><button>Enviar</button></form></main>
+  </section>
+  <footer>Express + Node.js + Socket.IO · El servidor asigna autor y hora.</footer>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
