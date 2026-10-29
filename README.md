@@ -2,10 +2,7 @@
 
 **Estudiante:** Nicolas Tovar  
 **Integrantes del grupo:** Miguel Angel Binilla y Juanes Aponte  
-**Código estudiantil:** pendiente de completar por el estudiante  
-**Materia / grupo:** pendiente de completar por el estudiante  
 **Fecha de preparación:** 29/10/2026  
-**Fecha de entrega de la asignatura:** pendiente de confirmar  
 **Repositorio:** https://github.com/HEFRA-ws/taller-chat-socketio
 
 ## 1. Cómo correr el proyecto
@@ -46,7 +43,7 @@ Abre http://localhost:3000 en dos ventanas o pestañas e ingresa con nombres dif
 
 Se verificaron los eventos con tres clientes automatizados y la interfaz con dos sesiones de navegador. También se probó que un objeto con un autor falso no se acepta como mensaje y que las etiquetas HTML se muestran como texto.
 
-**Limitaciones:** usuarios e historial viven en memoria; se pierden al reiniciar el servidor. El nombre elegido no equivale a una identidad autenticada. El proyecto es una demostración académica y no incluye cuentas ni base de datos. Antes de entregar, el estudiante debe completar sus datos y revisar estas explicaciones.
+**Limitaciones:** usuarios e historial viven en memoria; se pierden al reiniciar el servidor. El nombre elegido no equivale a una identidad autenticada. El proyecto es una demostración académica y no incluye cuentas ni base de datos.
 
 ## 4. Retos extra
 
@@ -63,9 +60,9 @@ Dos clientes reales del chat, con nombres diferentes, lista de conectados y mens
 
 ![Nicolas Tovar y Ana chateando](capturas/chat.png)
 
-## 6. Lo que más me costó
+## 6. Aspectos importantes de la implementación
 
-Pendiente de redactar por el estudiante después de ejecutar y estudiar el proyecto. No se atribuye una experiencia personal que no haya confirmado.
+Hay que distinguir entre enviar un mensaje a todos y avisar solo a los demás. Para los mensajes se usa `io.emit`, y para el indicador de escritura se usa `socket.broadcast.emit`. También se consulta el autor en el Map del servidor y se muestra el contenido con `textContent` para evitar interpretar etiquetas HTML.
 
 ## 7. Preguntas de sustentación
 
@@ -96,12 +93,9 @@ Cada tecla podría generar miles de entregas y mucho trabajo de red, servidor y 
 - [x] Captura con dos usuarios y lista de conectados.
 - [x] Repositorio público con al menos seis commits descriptivos (verificado después de publicar).
 - [x] Copia clonada en limpio: instalación, arranque y rutas HTTP verificados.
-- [ ] Completar código estudiantil, materia/grupo y fecha de entrega.
-- [ ] Redactar la experiencia personal de la sección 6.
-- [ ] Revisar las respuestas y poder explicar cada parte en la sustentación.
 
 ## Fuentes y ayuda
 
 - Taller base de Juan Bonilla: https://github.com/JuanBonilla1305/taller-chat-socketio
 - Documentación de Socket.IO: https://socket.io/docs/v4/
-- Se utilizó ayuda de IA (Codex) para implementar el código, preparar las explicaciones y ejecutar pruebas automatizadas. El estudiante debe revisar y comprender la entrega.
+- Apoyo de IA: Codex, para la implementación, documentación y pruebas del proyecto.
