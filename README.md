@@ -1,7 +1,7 @@
 # Chat en tiempo real con Socket.IO
 
 **Estudiante:** Nicolas Tovar  
-**Integrantes del grupo:** Miguel Angel Binilla y Juanes Aponte  
+**Integrantes del grupo:** Miguel Angel Bonilla y Juanes Aponte  
 **Fecha de preparación:** 29/10/2026  
 **Repositorio:** https://github.com/HEFRA-ws/taller-chat-socketio
 
