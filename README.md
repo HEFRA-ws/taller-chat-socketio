@@ -1,7 +1,7 @@
 # Chat en tiempo real con Socket.IO
 
 **Estudiante:** Nicolas Tovar  
-**Integrante del grupo:** Miguel Angel Binilla  
+**Integrantes del grupo:** Miguel Angel Binilla y Juanes Aponte  
 **Código estudiantil:** pendiente de completar por el estudiante  
 **Materia / grupo:** pendiente de completar por el estudiante  
 **Fecha de preparación:** 29/10/2026  
