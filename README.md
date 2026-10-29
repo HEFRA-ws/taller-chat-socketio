@@ -93,7 +93,8 @@ Cada tecla podría generar miles de entregas y mucho trabajo de red, servidor y 
 - [x] Código funcional de los cinco retos y dos extras.
 - [x] `node_modules/` excluido mediante `.gitignore`.
 - [x] Captura con dos usuarios y lista de conectados.
-- [ ] Confirmar repositorio público y mínimo seis commits después de publicar.
+- [x] Repositorio público con al menos seis commits descriptivos (verificado después de publicar).
+- [x] Copia clonada en limpio: instalación, arranque y rutas HTTP verificados.
 - [ ] Completar código estudiantil, materia/grupo y fecha de entrega.
 - [ ] Redactar la experiencia personal de la sección 6.
 - [ ] Revisar las respuestas y poder explicar cada parte en la sustentación.
