@@ -1,6 +1,7 @@
 # Chat en tiempo real con Socket.IO
 
-**Estudiante:** Miguel Angel Binilla  
+**Estudiante:** Nicolas Tovar  
+**Integrante del grupo:** Miguel Angel Binilla  
 **Código estudiantil:** pendiente de completar por el estudiante  
 **Materia / grupo:** pendiente de completar por el estudiante  
 **Fecha de preparación:** 29/10/2026  
@@ -60,7 +61,7 @@ Además, el cliente vuelve a registrar su nombre al reconectarse y limita los av
 
 Dos clientes reales del chat, con nombres diferentes, lista de conectados y mensajes en ambas direcciones:
 
-![Miguel Angel Binilla y Ana chateando](capturas/chat.png)
+![Nicolas Tovar y Ana chateando](capturas/chat.png)
 
 ## 6. Lo que más me costó
 
